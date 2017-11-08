@@ -1,0 +1,37 @@
+div {
+    width:500px;
+    height:300px;
+    background:#676470;
+    transition:all 0.5s ease;
+    font-size: 3.4em;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(240, 226, 226);
+    margin: 121px 149px;
+    line-height: 298px;
+}
+.rotate-360:hover
+{
+        /* -webkit-transform: rotateZ(-720deg);
+        -ms-transform: rotateZ(-720deg); */
+        transform: rotateZ(+720deg);
+}
+.rotate-60:hover
+{
+        /* -webkit-transform: rotateZ(-60deg);
+        -ms-transform: rotateZ(-60deg); */
+        transform: rotateZ(-60deg);
+}
+body {
+    font-family: optima;
+    background-color: lightgrey;
+}
+h1 {
+    margin: 0px 149px;
+    font-weight: 900;
+    font-size: 3em;
+    border-style: solid;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+}
